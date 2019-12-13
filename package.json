@@ -1,8 +1,8 @@
 {
   "name": "curd-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fetch的简单封装",
-  "main": "./dist/main.min.js",
+  "main": "./dist/fetch.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
