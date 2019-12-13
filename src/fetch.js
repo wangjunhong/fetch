@@ -19,12 +19,12 @@ class Request {
       baseUrl: "/api",
       ...config
     };
-    const {request} = this;
+    const { request } = this;
     this.request = request.bind(this);
   }
 
   request(url, options) {
-    let methods = ["POST", "PUT", "DELETE"];
+    let methods = ["POST", "PUT", "PATCH", "DELETE"];
     //兼容直接拼接的写法 默认GET请求
     if (options) {
       if (methods.includes(options.method)) {
