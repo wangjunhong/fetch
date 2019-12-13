@@ -1,7 +1,7 @@
 {
   "name": "wjh-eaqa",
   "version": "1.0.8",
-  "description": "this is test project",
+  "description": "fetch的简单封装",
   "main": "./dist/main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
