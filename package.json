@@ -1,0 +1,20 @@
+{
+  "name": "wjh-eaqa",
+  "version": "1.0.8",
+  "description": "this is test project",
+  "main": "./dist/main.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wjh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.1.0"
+  },
+  "dependencies": {}
+}
